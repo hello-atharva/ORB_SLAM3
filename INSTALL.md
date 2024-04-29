@@ -26,7 +26,8 @@ sudo make install
 cd ~
 git clone --recursive https://github.com/stevenlovegrove/Pangolin.git
 cd Pangolin/
-sudo ./scripts/install_prerequisites.sh --dry-run recommended
+sudo ./scripts/install_prerequisites.sh recommended
+cmake -B build
 cmake --build build
 ```
 
