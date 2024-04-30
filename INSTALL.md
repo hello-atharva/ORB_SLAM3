@@ -29,6 +29,8 @@ cd Pangolin/
 sudo ./scripts/install_prerequisites.sh recommended
 cmake -B build
 cmake --build build
+cd build
+sudo make install
 ```
 
 ### Build and Install ORB_SLAM3
