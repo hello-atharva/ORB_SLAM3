@@ -194,6 +194,9 @@ public:
     void InsertTrackTime(double& time);
 #endif
 
+    void SaveAtlasToFile(const string &filename, int type);
+    bool LoadAtlasFromFile(const string &filename, int type);
+
 private:
 
     void SaveAtlas(int type);
